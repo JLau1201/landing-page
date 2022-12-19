@@ -4,6 +4,8 @@ html {
 }
 
 .flexbox-header {
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,12 +14,20 @@ html {
 }
 
 .main-screen {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
 }
-
 .main-information {
+    width: 440px;
+    height: auto;
+}
+
+.main-header {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -26,4 +36,9 @@ html {
 .main-info-subtext {
     font-size: 18px;
     color: #E5e7eb;
+}
+
+.main-image {
+    max-height: 252px;
+    width: auto;
 }
