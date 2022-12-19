@@ -1,0 +1,29 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1f2937;
+}
+
+.flexbox-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.main-screen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-information {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.main-info-subtext {
+    font-size: 18px;
+    color: #E5e7eb;
+}
